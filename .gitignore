@@ -1,0 +1,5 @@
+*.mf
+*.zip
+*.class
+build/
+/dist/
