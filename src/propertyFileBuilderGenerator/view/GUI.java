@@ -18,7 +18,6 @@ import javax.swing.filechooser.FileSystemView;
 import javax.swing.table.DefaultTableModel;
 import propertyFileBuilderGenerator.control.application.encryptionDecryption.security.AES;
 import propertyFileBuilderGenerator.control.application.encryptionDecryption.security.SecurityUtilities;
-import propertyFileBuilderGenerator.control.application.jsonFile.JsonFileUtilities;
 import propertyFileBuilderGenerator.control.application.miscellaneous.MiscellaneousUtilities;
 import propertyFileBuilderGenerator.control.application.miscellaneous.confirmSavePane.SaveConfirmation;
 import propertyFileBuilderGenerator.control.application.propertiesFile.PropertiesFileUtilities;
@@ -32,7 +31,6 @@ public class GUI extends javax.swing.JFrame {
     PropertiesFileUtilities parsePropertyFile = new PropertiesFileUtilities();
 
     AES aes = new AES();
-    JsonFileUtilities jsonFileUtilities = new JsonFileUtilities();
     MiscellaneousUtilities miscellaneousUtilities = new MiscellaneousUtilities();
     PropertiesFileUtilities propertiesFileUtilities = new PropertiesFileUtilities();
 

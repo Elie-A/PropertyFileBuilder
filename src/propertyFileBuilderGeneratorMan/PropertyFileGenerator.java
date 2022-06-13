@@ -17,7 +17,7 @@ import propertyFileBuilderGenerator.view.GUI;
  *
  * @author eliabdallah
  */
-public class JsonAndPropertyFileGenerator {
+public class PropertyFileGenerator {
 
     /**
      * @param args the command line arguments
